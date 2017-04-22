@@ -1,0 +1,182 @@
+body { margin: 0 ;
+    font-size: 12px ;
+    font-family: 'arial' ;
+    }
+h5 {font-size: 18px;margin: 0 ; line-height: 100%; }
+
+
+.wrapper {
+    position: relative;
+    width: 100% ;
+    max-width: 1000px ;
+    margin: 0 auto ;
+}
+
+/* header section */
+header {position: relative; 
+    width: 100% ; 
+    height: auto ;
+    background-color: #88d7e2 ;
+    padding-bottom: 5px ;
+    margin-top: 0 ;
+}
+
+.logo {position: relative; 
+    width: 28%; 
+    height: 88px;
+    float: left;
+    padding: 1%;
+}
+.logo img {max-width: 100% ;}
+
+.company_name {
+    position: relative;
+    width: 70% ;
+    height: auto ;
+    float: left;
+}
+.company_name h1 {
+    margin: 0 ;
+    color: #1d616b;
+    font-size: 400%;
+    font-weight: 800;
+    font-family: arial;
+    text-transform: uppercase;
+}
+.company_name span {
+    text-align: center;
+    font-family: arial;
+    font-size: 150% ;
+    padding-left: 150px;
+    
+}
+
+.menu_bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #1d616b ;
+    
+}
+.menu_bar a {
+    display: block;
+    padding: 15px ;
+    color: yellow ;
+    font-size: 180%;
+    text-decoration: none;
+    border-right: 1px solid silver ;
+    float: left;
+}
+.menu_bar a:hover {
+    background: black ;
+    color: red;
+}
+
+.active {
+    background: black ;
+    color: red !important;
+}
+
+
+.clear {clear: both;}
+
+/* main section */
+.main_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.main_image {float:left; margin:8px;}
+.p1 {font-size: 170%;
+    line-height: 150%;
+    color: #f15a22 ;
+}
+
+/* items */
+.items {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.item {
+    position: relative;
+    width: 25% ;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.item:hover {background: #1d616b;}
+.item img {
+    width: 96%;
+    margin: 2% ;
+} 
+.item img:hover {
+    opacity: 0.5;
+}
+.item a {text-decoration: none; color: #1d616b;}
+
+/* home about */
+.HomeAbout {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 50px 0 20px 0 ;
+}
+.HomeAbout h3 {
+    color: #1b467a ;
+    font-size: 130%;
+}
+
+.HomeAbout h4 {
+    color: green ;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+/* footer */
+.footer_menu_bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #1d616b ;
+    padding-top: 10px;
+}
+.footer_menu_bar a {
+     padding: 15px ;
+    color: yellow ;
+    font-size: 100%;
+    text-decoration: none;
+ 
+}
+
+.copyrights {width: 60%;
+padding: 8px 0 8px 0 ;
+float: left;
+    color: white;
+}
+.designer {width: 40%;
+padding: 8px 0 8px 0 ;
+float: left;
+    color: #7db2ba;
+    text-align: right;
+}
+.designer a {color: #7db2ba;}
+
+/* contact form */
+.form-group {position: relative; width: 100%; height: auto ; 
+    margin-bottom: 2em ; }
+.form-group input[type=text], input[type=number], input[type=email] 
+{width: 100% ; height: 25px ;}
+.form-group select {width: 100%; height: 33px ;}
+.form-group textarea {width: 100% ; height: 100px ;}
+.form-group label {font-family: monospace ; font-size: 150% ; color: darkred ;}
+
+.form-group input[type=submit] { width: 100% ; padding: 15px 0 15px 0 ;
+background: lightgreen ; border: 1px red dashed ; }
+
+.form-group button { width: 100% ; padding: 15px 0 15px 0 ;
+background: lightgreen ; border: 1px red dashed ; }
+
+/* grids */
+.col-6 {position: relative; width: 50%; height: auto; float: left;}
